@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin IDOWU Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav-navbar">
+        <a href="./question.html" class="navbar">Question1</a>
+    </nav>
+    <div>
+        <h1>What can Benjamin do as a young developer?</h1>
+        <section>
+            <p>As a young developer, there are limitations to what I can do because I've not had enough experience in the field. </br> But there are a couple of things I can do.</p>
+            <p>After learning the basics, I can proudly and boldly say I can do the following:</p>
+            <ol>
+                <li>Create tables in HTML</li>
+                <li>Link other websites from my webpage</li>
+                <li>Add Images</li>
+                <li>Create forms</li>
+                <li>Lastly add all my knowledge together and beautify the webpage using CSS</li>
+            </ol>
+        </section>
+        <div id="ctab">
+            <h2>Creating tables</h2>
+            <p>First, I will recreate an exam timetable and style it</p>
+            <table border="1">
+                <tr>
+                    <th colspan="6">GST AND TMC TIME TABLE</th>
+                </tr>
+                <tr>
+                    <th>DAY/DATE</th>
+                    <th>8:00AM - 9:00AM</th>
+                    <th>10:00AM - 11:00AM</th>
+                    <th>12:00PM - 1:00PM</th>
+                    <th>2:00PM - 3:00PM</th>
+                    <th>4:00PM - 5:00PM</th>
+                </tr>
+                <tr>
+                    <th align="left">Monday</br>14<sup>th</sup> March, 2022</th>
+                    <td align="center">TMC 311 </br> (ICT)</td>
+                    <td align="center">TMC 111 </br> (ICT)</td>
+                    <td></td>
+                    <td align="center">TMC 211 </br> (ICT)</td>
+                    <td align="center">GST 112 </br> (ICT)</td>
+                </tr>
+                <tr>
+                    <th align="left">Tuesday</br>15<sup>th</sup> March, 2022</th>
+                    <td align="center">GST 212 </br> (ICT)</td>
+                    <td align="center">GST 113 </br> (ICT)</td>
+                    <td align="center">GST 211 </br> (ICT)</td>
+                    <td align="center">TMC 411 </br> (ICT)</td>
+                    <td align="center">GST 111 </br> (ICT)</td>
+                </tr>
+            </table>
+        </div>
+        <section id="lweb">
+            <h2>Linking Websites or Webpages</h2>
+            <p>Visit the <a href="https://www.merriam-webster.com/">Merriam Webster</a> dictionary here</p>
+        </section>
+        <div>
+            <h2>Adding Images</h2>
+            <figure>
+                <p><img src="Images/Rain_Temp.png" alt="Rain/Temperature Image" width="700" height="450" title="A chart of rainfall and temperature in Africa."></p>
+                </br>
+                <figcaption>An image of a data visualization for rainfall and temperature in African countries carried out using R Studio</figcaption>
+            </figure>
+        </div>
+        <div>
+            <h2>Create Forms</h2>
+            <form>
+                <fieldset>
+                    <legend>
+                        Your Details:
+                    </legend>
+                    <label>
+                    Name:
+                    <input type="text" name="text" size="30" maxlength="100">
+                </label>
+                    <br />
+                    <label>
+                    Email:
+                    <input type="email" name="email" size="30" maxlength="100">
+                </label>
+                    <br />
+                </fieldset>
+                <br />
+                <fieldset>
+                    <legend>
+                        Your Review:
+                    </legend>
+                    <p>
+                        <label for="hear-about">
+                        How did you hear about us?
+                    </label>
+                        <select name="referrer" id="hear-about">
+                        <option value="google">Google</option>
+                        <option value="friend">Friend</option>
+                        <option value="advert">Advert</option>
+                        <option value="other">Other</option>
+                    </select>
+                    </p>
+                    <p>
+                        Would you visit again?
+                        <br />
+                        <label>
+                        <input type="radio" name="rating" value="yes" />
+                        Yes
+                    </label>
+                        <label>
+                        <input type="radio" name="rating" value="no" />
+                        No
+                    </label>
+                        <label>
+                        <input type="radio" name="rating" value="maybe" />
+                        Maybe
+                    </label>
+                    </p>
+                    <p>
+                        <label for="comments">
+                        Comments:
+                    </label>
+                        <br />
+                        <textarea rows="4" cols="40" id="comments">
+                </textarea>
+                    </p>
+                    <label>
+                    <input type="checkbox" name="subscribe" checked="checked" />
+                    Sign me up for email updates
+                </label>
+                    <br />
+                    <input type="submit" value="Submit review" />
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
